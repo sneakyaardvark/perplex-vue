@@ -1,0 +1,35 @@
+:root {
+    --orange: #eb5e28;
+    --orange-tint: #eb6e3d;
+    --dark-gray: #252422;
+    --light-gray: #403d39;
+    --white: #fffcf2;
+    --white2: #ccc5b9;
+}
+
+/*input, button {*/
+/*  font-size: 1.2rem;*/
+/*  background-color: var(--white2);*/
+/*}*/
+
+/*input {*/
+/*  width: 8em;*/
+/*  margin: 1em auto 1em;*/
+/*}*/
+
+/*button {*/
+/*    padding: 0.5em;*/
+/*    margin: 0.25em;*/
+/*    border-radius: 0.25rem;*/
+/*    border-color: transparent;*/
+/*    color: var(--dark-gray);*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: var(--orange);*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*button:active {*/
+/*    background-color: var(--orange-tint);*/
+/*}*/
