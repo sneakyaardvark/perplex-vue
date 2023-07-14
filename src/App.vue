@@ -6,10 +6,16 @@
       </template>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" temporary="true">
+    <v-navigation-drawer v-model="drawer" temporary>
       <v-list>
         <v-list-item to="/" title="Home"></v-list-item>
-        <v-list-item to="/manage" title="Manage"></v-list-item>
+        <v-list-group value="Manage">
+          <template v-slot:activator="{ props }">
+            <v-list-item v-bind="props" title="Manage"></v-list-item>
+          </template>
+          <v-list-item to="/manage" title="Overview"></v-list-item>
+          <v-list-item to="/manage/game" title="Game"></v-list-item>
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
 

@@ -1,9 +1,11 @@
 <script setup>
-
+const props = defineProps({
+  to: String
+})
 </script>
 
 <template>
-  <v-card class="mx-auto">
+  <v-card :to="props.to" class="mx-auto">
     <v-img class="align-end text-white" height="200" src="@/assets/logo.svg" cover>
       <v-card-title>Game 1</v-card-title>
       <v-card-subtitle>INACTIVE</v-card-subtitle>

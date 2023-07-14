@@ -1,6 +1,10 @@
 <template>
-  <v-container class="d-flex flex-wrap align-content-start">
-    <game-card v-for="n in 10" :key="n"/>
+  <v-container>
+    <v-row v-for="n in 11" :key="n">
+      <v-col>
+        <game-card :to="'/game/' + String(n)"/>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
